@@ -1,3 +1,4 @@
+$('.window').fadeTo("slow",0);
 var core = core || {};
 core.window = {};
 
@@ -97,7 +98,8 @@ core.window = function (win,title){
         //LISTEN BUTTON CLOSE
         $('.close',settings.win).click(function(e){
              e.preventDefault();
-            $(settings.win).css({'opacity':0,top:leftItemTop,left:leftItemBar,height:0});
+            $(settings.win).css({top:leftItemTop,left:leftItemBar,height:0});
+            $(settings.win).fadeTo("slow",0);
             $('#'+settings.idItemTask).remove();
 
         })
