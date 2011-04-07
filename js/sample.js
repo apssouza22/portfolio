@@ -6,7 +6,6 @@ core.window = function (win,title){
 
     //settings.title settings.winDOW
     classe = this;
-    classe.teste ='teste';
     var settings={};
 
     settings.height = 600;
@@ -100,17 +99,18 @@ core.window = function (win,title){
              e.preventDefault();
             $(settings.win).css({top:leftItemTop,left:leftItemBar,height:0});
             $(settings.win).fadeTo("slow",0);
+			$('.centerItem','#'+settings.idItemTask).unbind('click');
             $('#'+settings.idItemTask).remove();
 
         })
 
         //LISTEN ICON TASK BAR
-        $('.centerItem','#'+settings.idItemTask).live('click',function(){
+        $('.centerItem','#'+settings.idItemTask).bind('click',function(){
             if($(settings.win).hasClass('min')){
                $(settings.win).removeClass('min')
                animateWindow();
             }else{
-               //minimizaWindow();
+               minimizaWindow();
             }
         })
 
