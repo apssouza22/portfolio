@@ -27,6 +27,11 @@ and open the template in the editor.
                     <img src="img/ico_curriculum.png">
                     <div>Currículo</div>
                 </a>
+
+				<a href="blog/" rel="blog" title="Compartilhando conhecimento" class="icone">
+                    <img src="img/ico_blog.png">
+                    <div>Blog</div>
+                </a>
      
             </div><!-- FIM SHORTCUTS-->
 			
@@ -193,24 +198,15 @@ and open the template in the editor.
         <div class="startWindow hidden">
             <div class="visitante">Alex</div>
                 <ul class="listPaginas">
-                    <li><a href="" class="icone" rel="portifolio" title="Meus trabalhos">Portifólio</a>
-                        <ul>
-                            <li>Front-End</li>
-                            <li>Back-End</li>
-                        </ul>
-                    </li>
-                    <li>Curriculo</li>
-                    <li>Video Aulas
-                        <ul>
-                            <li>Javascript</li>
-                            <li>PHP</li>
-                        </ul>
-                    </li>
+                    <li><a href="#sobremim" rel="sobremim" title="Sobre mim" class="icone">Sobre Mim</a></li>
+                    <li><a href="#portfolio" class="icone" rel="portifolio" title="Meus trabalhos">Portfolio</a></li>
+                    <li><a href="#curriculo" rel="curriculo" title="Conhecimentos e experiências " class="icone">Currículo</a></li>
+                    <li><a href="blog/" rel="blog" title="Compartilhando conhecimento" class="">Blog</a></li>
                 </ul>
 
                 <ul class="listSocial">
-                    <li>Twitter</li>
-                    <li>Facebook</li>
+                    <li><a href="http://twitter.com/#!/apssouza22" target="_blank">Twitter</a></li>
+                    <li><a href="http://www.facebook.com/apssouza" target="_blank">Facebook</a></li>
                 </ul>
         </div>
         <!-- FIM - START WINDOW-->
@@ -263,7 +259,6 @@ and open the template in the editor.
             $('.icone').click(function(e){
                     e.preventDefault();
                     var taskBar = new core.window($(this).attr('rel'),$(this).attr('title'));
-                    taskBar.teste = '1223'
                     taskBar.showWindow();
             })
 
@@ -276,11 +271,7 @@ and open the template in the editor.
                 $('.startWindow').hide();
             });
 
-            //BUTTON RIGHT
-             $('.itemBar').live("contextmenu",function(e){
-                alert('fechar')
-                e.preventDefault();
-             });
+            
 
              //MOUSOVER  ITEM TASK
            $('.itemBar').live('mouseout mouseover',function(e){

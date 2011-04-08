@@ -58,12 +58,12 @@ img{
 }
 
 #content .window .windowContent{
-    height: 570px;
+    height: 470px;
     width: 480px;
     float: left;
-    margin: 10px;
+    margin: 0 0 10px 10px;
     color: #222222;
-    padding-bottom: 10px;
+    padding: 10px 0;
 }
 
 #content #sobremim{
@@ -79,7 +79,8 @@ img{
 }
 
 #content #portifolio .windowContent{
-      width: 620px;
+      width: 630px;
+	  overflow: scroll;
 }
 
 #content #portifolio .windowContent .portifolioItem{
@@ -110,7 +111,7 @@ img{
 
 
 #content #curriculo{
-    width: 600px;
+    width: 590px;
 }
 
 #content #curriculo .windowContent{
@@ -247,10 +248,23 @@ img{
 }
 .startWindow .listPaginas{
     background: none repeat scroll 0 0 #FFFFFF;
-    height: 260px;
-    width: 190px;
-    padding: 10px;
+    height: 280px;
+    width: 200px;
     float: left;
+}
+
+.startWindow .listPaginas a{
+    color: #333333;
+    display: block;
+    height: 21px;
+    padding: 6px 0 0 10px;
+    text-align: left;
+    text-decoration: none;
+    width: 190px;
+}
+
+.startWindow .listPaginas a:hover{
+	    background: none repeat scroll 0 0 #CED9E7;
 }
 
 .startWindow .listSocial{
@@ -260,6 +274,13 @@ img{
     float: left;
     padding-left: 10px;
     padding-top: 10px;
-    color: #fff;
+
+}
+.startWindow .listSocial li{
+	margin: 5px 0;
 }
 
+.startWindow .listSocial a{
+	color: #fff;
+	text-decoration: none;
+}
