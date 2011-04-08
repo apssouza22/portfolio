@@ -8,7 +8,7 @@ core.window = function (win,title){
     classe = this;
     var settings={};
 
-    settings.height = 600;
+    settings.height = 500;
     //POSITION OF ITEM TASK BAR
     var leftItemBar;
     var leftItemTop;
@@ -54,9 +54,9 @@ core.window = function (win,title){
         itemTaskBar.removeClass('modeloItemBar').attr('id',settings.idItemTask);
         itemTaskBar.find('.centerItem').text(settings.title);
         $('.taskBarListItems').append(itemTaskBar);
-
         leftItemTop  = $('#taskbar').position().top;
         leftItemBar = $('#'+settings.idItemTask).position().left;
+		itemTaskBar.bind("contextmenu",close);
     }
 
     //fn
@@ -84,6 +84,14 @@ core.window = function (win,title){
 
             $(settings.win).animate(params, 500, 'swing', function(){            })
     }
+	//fn
+	var close = function(e){
+             e.preventDefault();
+            $(settings.win).css({top:leftItemTop,left:leftItemBar,height:0});
+            $(settings.win).fadeTo("slow",0);
+			$('.centerItem','#'+settings.idItemTask).unbind('click');
+            $('#'+settings.idItemTask).remove();
+        }
 
     //fn
     function listen()
@@ -95,14 +103,7 @@ core.window = function (win,title){
         })
         
         //LISTEN BUTTON CLOSE
-        $('.close',settings.win).click(function(e){
-             e.preventDefault();
-            $(settings.win).css({top:leftItemTop,left:leftItemBar,height:0});
-            $(settings.win).fadeTo("slow",0);
-			$('.centerItem','#'+settings.idItemTask).unbind('click');
-            $('#'+settings.idItemTask).remove();
-
-        })
+        $('.close',settings.win).click(close)
 
         //LISTEN ICON TASK BAR
         $('.centerItem','#'+settings.idItemTask).bind('click',function(){
@@ -119,6 +120,8 @@ core.window = function (win,title){
             $('.window').css('zIndex', 10);
             $(this).css('zIndex', 20)
         })
+
+		
     }
 
 
