@@ -34,6 +34,22 @@ img{
     width: 100%;
 }
 
+#content .contato{
+	border: 1px dashed #AAAAAA;
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    height: 110px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 350px;
+}
+
+#content .contato ul{
+	margin: 10px;
+}
+
 #content .boxShortcuts .icone{
     color: white;
     display: block;
@@ -55,7 +71,19 @@ img{
     overflow: hidden;
     background: #ced9e7;
     top: 900px;
+	
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+
+  -moz-box-shadow:  4px 4px 4px #666666;
+  -webkit-box-shadow:  4px 4px 4px #666666;
+  box-shadow:  4px 4px 4px #666666;
+
 }
+
+
+
 
 #content .window .windowContent{
     height: 470px;
@@ -90,6 +118,10 @@ img{
     position: relative;
     text-align: center;
     padding: 20px 0 5px;
+
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
 }
 
 
@@ -132,6 +164,10 @@ img{
     cursor: move;
     background: none repeat scroll 0 0 #1F2933;
     color: #fff;
+
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
 }
 
 #content .window .windowHeader .windowTitle{
