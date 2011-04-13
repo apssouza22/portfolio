@@ -36,7 +36,24 @@ img{
     width: 100%;
 }
 
-#content .boxShortcuts a{
+
+#content .contato{
+	border: 1px dashed #AAAAAA;
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    height: 110px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 350px;
+}
+
+#content .contato ul{
+	margin: 10px;
+}
+
+#content .boxShortcuts .icone{
     color: white;
     display: block;
     text-decoration: none;
