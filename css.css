@@ -36,14 +36,14 @@ img{
     width: 100%;
 }
 
-#content .boxShortcuts .icone{
+#content .boxShortcuts a{
     color: white;
     display: block;
     text-decoration: none;
     width: 64px;
     margin: 15px;
 }
-#content .boxShortcuts .icone div{
+#content .boxShortcuts a div{
     margin-top: 5px;
 }
 
