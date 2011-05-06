@@ -8,10 +8,12 @@ html, body {
     overflow: hidden;
     padding: 0;
 }
+
 ul{
     margin: 0;
     padding: 0;
 }
+
 
 li{
         list-style: none;
@@ -34,6 +36,10 @@ img{
     width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3aa773ef5ea36c7be1ca311231b15b0a99e0ad43
 #content .contato{
 	border: 1px dashed #AAAAAA;
     color: #FFFFFF;
@@ -57,7 +63,7 @@ img{
     width: 64px;
     margin: 15px;
 }
-#content .boxShortcuts .icone div{
+#content .boxShortcuts a div{
     margin-top: 5px;
 }
 
@@ -71,7 +77,19 @@ img{
     overflow: hidden;
     background: #ced9e7;
     top: 900px;
+	
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+
+  -moz-box-shadow:  4px 4px 4px #666666;
+  -webkit-box-shadow:  4px 4px 4px #666666;
+  box-shadow:  4px 4px 4px #666666;
+
 }
+
+
+
 
 #content .window .windowContent{
     height: 470px;
@@ -106,6 +124,10 @@ img{
     position: relative;
     text-align: center;
     padding: 20px 0 5px;
+
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
 }
 
 
@@ -148,6 +170,10 @@ img{
     cursor: move;
     background: none repeat scroll 0 0 #1F2933;
     color: #fff;
+
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
 }
 
 #content .window .windowHeader .windowTitle{
