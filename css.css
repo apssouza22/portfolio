@@ -98,7 +98,12 @@ img{
 }
 
 #content #sobremim{
-    width: 500px;
+    width: 640px;
+	
+}
+#content #sobremim .windowContent{
+      width: 600px;
+	  overflow-y: scroll;
 }
 
 #content #sobremim .windowContent{
