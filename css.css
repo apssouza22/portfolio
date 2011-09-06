@@ -96,6 +96,7 @@ img{
     color: #222222;
     padding: 10px 0;
 }
+#content .window .windowContent{line-height:1.3;}
 
 #content #sobremim{
     width: 640px;
@@ -103,11 +104,20 @@ img{
 }
 #content #sobremim .windowContent{
       width: 600px;
+	   overflow: hidden;
+}
+
+#content #tecnicas{
+    width: 612px;
+	
+}
+#content #tecnicas .windowContent{
+      width: 600px;
 	  overflow-y: scroll;
 }
 
-#content #sobremim .windowContent{
-    overflow: hidden;
+#content #tecnicas .windowContent li{
+	margin-bottom: 10px;
 }
 
 #content #portifolio{
