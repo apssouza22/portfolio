@@ -1,0 +1,400 @@
+html, body {
+    background: url("img/desktop.jpg") no-repeat scroll left top #fff;
+    /*background: #000;*/
+    border: 0 none;
+    font: 12px verdana,sans-serif;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.hide{ display: none;}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+li{
+        list-style: none;
+}
+
+img{
+    border: 0;
+}
+
+.hidden{
+    display: none;
+}
+
+
+#content {
+    border: 0 none;
+    height: 800px; /**************************PRECISA SER DINAMICO COM RESIZE DO BROWSER*******************/
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+
+#content .contato{
+	border: 1px dashed #AAAAAA;
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    height: 110px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 350px;
+}
+
+#content .contato ul{
+	margin: 10px;
+}
+
+#content .boxShortcuts a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    width: 64px;
+    margin: 15px;
+}
+#content .boxShortcuts a div{
+    margin-top: 5px;
+}
+
+
+#content .window{
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom:  0;
+    opacity:0;
+    overflow: hidden;
+    background: #ced9e7;
+    top: 900px;
+	
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+
+  -moz-box-shadow:  0 0 40px 0 #666666;
+  -webkit-box-shadow:  0 0 40px 0 #666666;
+  box-shadow:  0 0 40px 0 #666666;
+
+}
+
+
+
+
+#content .window .windowContent{
+    height: 470px;
+    width: 480px;
+    float: left;
+    margin: 0 0 10px 10px;
+    color: #222222;
+    padding: 10px 0;
+}
+#content .window .windowContent{line-height:1.3;}
+
+#content #sobremim{
+    width: 612px;
+	
+}
+#content #sobremim .windowContent{
+      width: 600px;
+	  overflow-y: scroll;
+}
+
+#content #tecnicas{
+    width: 612px;
+	
+}
+#content #tecnicas .windowContent{
+      width: 600px;
+	  overflow-y: scroll;
+}
+
+#content #ocorrencias{
+    width: 612px;
+
+}
+#content #ocorrencias .windowContent{
+      width: 600px;
+	  overflow-y: scroll;
+}
+
+#content #tecnicas .windowContent li{
+	margin-bottom: 10px;
+}
+
+#content #portifolio{
+    width: 640px;
+}
+
+#content #portifolio .windowContent{
+      width: 630px;
+	  overflow: scroll;
+}
+
+#content #portifolio .windowContent .portifolioItem{
+    float: left;
+    height: 260px;
+    width: 200px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0 5px;
+
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+
+#content #portifolio .windowContent .portifolioItem h4{
+    margin: 7px;
+}
+
+#content #portifolio .windowContent .portifolioItem p{
+    margin-top: 20px;
+}
+#content #portifolio .windowContent .portifolioItem p{
+    margin: 0;font-size: 10px;
+    padding: 0 10px;
+}
+
+#content #portifolio .windowContent .portifolioItem .desc .selected{
+    background: #fff;
+}
+
+
+#content #curriculo{
+    width: 590px;
+}
+
+#content #curriculo .windowContent{
+    overflow: scroll;
+    width: 580px;
+}
+
+#content .window .windowContent h2 span{
+    font-size: 12px;
+}
+
+
+#content .window .windowHeader{
+    padding: 5px 0 4px 10px;
+    width: 100%;
+    clear: both;
+    float: left;
+    cursor: move;
+    background: none repeat scroll 0 0 #1F2933;
+    color: #fff;
+
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#content .window .windowHeader .windowTitle{
+    display: inline;
+    width: 400px;
+    float: left;
+}
+
+#content .window .windowHeader .windowButtons{
+    display: inline;
+    float: right;
+    cursor: default;
+    margin-right: 10px;
+}
+
+#content .window .windowHeader .windowButtons a{
+    margin-right: 5px;
+    text-decoration: none;
+    background-image: url("img/tool-sprites.gif");
+    height: 15px;
+    overflow: hidden;
+    width: 15px;
+    float: left;
+}
+
+#content .window .windowHeader .windowButtons a.min{
+    background-position: 0 -15px;
+}
+
+#taskbar{
+    background: url("img/taskbuttons-panel-bg.gif") repeat-x scroll left top #000000;
+    padding-top: 0;
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 100;
+}
+
+#taskbar .btnStart{
+    float: left;
+    height: 30px;
+    width: 80px;
+    background: url('img/btn_start.gif');
+}
+
+#taskbar .bg_line{
+    float: left;
+    height: 30px;
+    width: 2px;
+    background: url('img/bar_task_line.gif') no-repeat;
+    margin:0 10px;
+}
+
+
+#taskbar .taskBarListItems{
+    float: left;
+    height: 30px;
+    width: auto;
+}
+
+#taskbar .taskBarListItems .modeloItemBar{
+    display: none;
+}
+
+#taskbar .taskBarListItems li{
+    float: left;
+}
+#taskbar .taskBarListItems td{
+    padding: 0;
+}
+#taskbar .taskBarListItems .centerItem{
+    background: url("img/taskbutton.gif") repeat-x scroll 0 -56px transparent;
+    cursor: pointer;
+    padding: 0 20px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    height: 28px;
+    color: #fff;
+    
+}
+
+#taskbar .taskBarListItems .leftItem{
+    background: url("img/taskbutton.gif") repeat-x scroll 0 0 transparent;
+    height: 28px;
+    width: 4px;
+}
+
+#taskbar .taskBarListItems .rightItem{
+    background: url("img/taskbutton.gif") repeat-x scroll 0 -28px transparent;
+    height: 28px;
+    width: 4px;
+}
+
+.startWindow{
+    height: 300px;
+    left: 0;
+    position: absolute;
+    bottom: 30px;
+    visibility: visible;
+    width: 300px;
+    z-index: 15000;
+    background: #000;
+    color: #000ccc;
+}
+.startWindow .visitante{
+    background: url('img/user.gif') no-repeat scroll 0 2px;
+    padding-left: 20px;
+    padding-top: 2px;
+    height: 18px;
+    color: #fff;
+}
+.startWindow .listPaginas{
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 280px;
+    width: 200px;
+    float: left;
+}
+
+.startWindow .listPaginas a{
+    color: #333333;
+    display: block;
+    height: 21px;
+    padding: 6px 0 0 10px;
+    text-align: left;
+    text-decoration: none;
+    width: 190px;
+}
+
+.startWindow .listPaginas a:hover{
+	    background: none repeat scroll 0 0 #CED9E7;
+}
+
+.startWindow .listSocial{
+    background: none repeat scroll 0 0 ;
+    height: 260px;
+    width: 80px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+.startWindow .listSocial li{
+	margin: 5px 0;
+}
+
+.startWindow .listSocial a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+#sobremim .boxFiltro{
+	margin: 20px;
+}
+
+.boxListaAlunos  th,.boxListaAlunos  th{margin:0;}
+
+.boxListaAlunos  thead tr{background: #CED907;}
+
+table{
+	font: 12px verdana,sans-serif;
+	text-align: left;
+}
+
+
+.listForm{ margin-top: 20px;}
+
+.listForm li {
+	float: left;
+    margin-bottom: 10px;
+    width: 556px;
+}
+
+.listForm label{
+	 float: left;
+    padding-right: 5px;
+    text-align: right;
+    width: 130px;
+}
+
+.listForm .input{
+	width: 350px;
+    float: left;
+}
+
+.listForm .input_2{
+	width: 30px;
+
+}
+
+
+.listForm .input_11{
+	width: 120px;
+
+}
+
+.boxExibir .listForm label{ font-weight: bold;}
+
+.msg_sucesso{ margin-top: 200px; margin-left:200px; }
