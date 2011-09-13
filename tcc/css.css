@@ -126,6 +126,34 @@ img{
 	  overflow-y: scroll;
 }
 
+#content #alunos{
+    width: 612px;
+
+}
+#content #alunos .windowContent{
+      width: 600px;
+	  overflow-y: scroll;
+}
+
+#content #historico{
+    width: 612px;
+
+}
+#content #historico .windowContent{
+      width: 600px;
+	  overflow-y: scroll;
+}
+
+#content #declaracao{
+    width: 612px;
+
+}
+#content #declaracao .windowContent{
+      width: 600px;
+	  overflow-y: scroll;
+}
+
+
 #content #tecnicas .windowContent li{
 	margin-bottom: 10px;
 }
@@ -349,12 +377,11 @@ img{
 	text-decoration: none;
 }
 
-
-#sobremim .boxFiltro{
+ .boxFiltro{
 	margin: 20px;
 }
 
-.boxListaAlunos  th,.boxListaAlunos  th{margin:0;}
+.boxListaAlunos  th,.boxListaAlunos  td{margin:0;height:20px}
 
 .boxListaAlunos  thead tr{background: #CED907;}
 
@@ -398,3 +425,5 @@ table{
 .boxExibir .listForm label{ font-weight: bold;}
 
 .msg_sucesso{ margin-top: 200px; margin-left:200px; }
+
+span.bloco{float:left;}
