@@ -1,6 +1,6 @@
 <div id="tecnicas" class="window">
 	<div class="windowHeader">
-		<div class="windowTitle">Gêrenciar professores</div>
+		<div class="windowTitle">G&ecirc;renciar professores</div>
 		<div class="windowButtons">
 			<a href="" class="btVoltar" onclick="navegacao.voltar();return false;" ></a><a href="" class="min"></a><a href="" class="close"></a></div>
 	</div>
@@ -23,12 +23,12 @@
 							<th width="50%">Nome</th>
 							<th width="20%">Telefone</th>
 							<th width="20%">RF</th>
-							<th width="10%">Ações</th>
+							<th width="10%">A��o</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td>Alexsandro Pereira da silva souza</td>
+							<td>Alexsandro Pereiraa</td>
 							<td>080023037</td>
 							<td>1234-5678</td>
 							<td>
@@ -70,8 +70,8 @@
 					</li>
 
 					<li>
-						<label>Endereço:</label>
-						<input type="text" name="endereço" class="input">
+						<label>Endere&ccedil;o:</label>
+						<input type="text" name="endere�o" class="input">
 					</li>
 
 					<li>
@@ -95,17 +95,17 @@
 					</li>
 
 					<li>
-						<label>Formação:</label>
-						<input type="text" name="Formação:" class="input">
+						<label>Forma&ccedil;&atilde;o:</label>
+						<input type="text" name="Forma��o:" class="input">
 					</li>
 
 					<li>
 						<label>Disciplinas:</label>
-						<input type="checkbox" name="portugues"><span>Português</span>
-						<input type="checkbox" name="matematica"><span>Matemática</span>
-						<input type="checkbox" name="ciencias"><span>Ciências</span>
+						<input type="checkbox" name="portugues"><span>Portugu&ecirc;s</span>
+						<input type="checkbox" name="matematica"><span>Matem&aacute;tica</span>
+						<input type="checkbox" name="ciencias"><span>Ci&ecirc;ncias</span>
 						<input type="checkbox" name="geografia"><span>Geografia</span>
-						<input type="checkbox" name="historia"><span>História</span>
+						<input type="checkbox" name="historia"><span>Hist&oacute;ria</span>
 					</li>
 
 					<li>
@@ -123,7 +123,7 @@
 				</ul>
 
 				<div class="msg_sucesso hide">
-					<p> Sucesso na ação.</p>
+					<p> Sucesso na a&ccedil;&atilde;o.</p>
 					<input type="reset" class="btNovo" onclick="navegacao.showHide('.msg_sucesso', '.listForm');" value="Novo">
 				</div>
 
@@ -139,8 +139,8 @@
 					</li>
 
 					<li>
-						<label>Endereço:</label>
-						<span>Rua alváro ferreira, 20</span>
+						<label>Endere&ccedil;o:</label>
+						<span>Rua alv&aacute;ro ferreira, 20</span>
 					</li>
 
 					<li>
@@ -150,7 +150,7 @@
 
 					<li>
 						<label>Cidade</label>
-						<span>São Paulo</span>
+						<span>S&atilde;o Paulo</span>
 					</li>
 
 					<li>
@@ -169,13 +169,13 @@
 					</li>
 
 					<li>
-						<label>Formação:</label>
+						<label>Forma&ccedil;&atilde;o:</label>
 						<span>Pedagoia</span>
 					</li>
 
 					<li>
 						<label>Disciplinas:</label>
-						<span>Geografia, História</span>
+						<span>Geografia, Hist&oacute;ria</span>
 					</li>
 
 					<li>
@@ -186,7 +186,7 @@
 
 					<li>
 						<label>Turmas:</label>
-						<span> 4ª C, 8ª A, 5ª D  </span>
+						<span> 4&ordf; C, 8&ordf; A, 5&ordf; D  </span>
 					</li>
 
 				</ul>

@@ -1,6 +1,6 @@
 <div id="sobremim" class="window">
 	<div class="windowHeader">
-		<div class="windowTitle">GÃªrenciar alunos</div>
+		<div class="windowTitle">Gêrenciar alunos</div>
 		<div class="windowButtons">
 			<a href="" class="btVoltar" onclick="navegacao.voltar();return false;" ></a><a href="" class="min"></a><a href="" class="close"></a></div>
 	</div>
@@ -21,15 +21,15 @@
 					<thead>
 						<tr>
 							<th width="50%">Nome</th>
-							<th width="10%">SÃ©rie</th>
+							<th width="10%">Série</th>
 							<th width="20%">Ra</th>
-							<th width="20%">AÃ§Ãµes</th>
+							<th width="20%">Ações</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td>Alexsandro Pereira da silva souza</td>
-							<td>4Âª</td>
+							<td>4ª</td>
 							<td>080023037</td>
 							<td>
 								<a href="#" onclick="navegacao.showHide('.listagem','.boxExibir'); return false;">exibir</a>
@@ -38,7 +38,7 @@
 						</tr>
 						<tr>
 							<td>Alex Pereira da silva </td>
-							<td>4Âª</td>
+							<td>4ª</td>
 							<td>080023037</td>
 							<td>
 								<a href="" onclick="navegacao.showHide('.listagem','.boxExibir'); return false;">exibir</a>
@@ -47,7 +47,7 @@
 						</tr>
 						<tr>
 							<td>Alexsandro Pereira</td>
-							<td>2Âª</td>
+							<td>2ª</td>
 							<td>080023037</td>
 							<td>
 								<a href="" onclick="navegacao.showHide('.listagem','.boxExibir'); return false;">exibir</a>
@@ -70,8 +70,8 @@
 					</li>
 
 					<li>
-						<label>EndereÃ§o:</label>
-						<input type="text" name="endereÃ§o" class="input">
+						<label>Endereço:</label>
+						<input type="text" name="endereço" class="input">
 					</li>
 
 					<li>
@@ -95,7 +95,7 @@
 					</li>
 
 					<li>
-						<label>Nome MÃ£e:</label>
+						<label>Nome Mãe:</label>
 						<input type="text" name="pai" class="input">
 					</li>
 
@@ -105,7 +105,7 @@
 					</li>
 
 					<li>
-						<label>SÃ©rie:</label>
+						<label>Série:</label>
 						<input type="text" name="serie" class="input input_2">
 					</li>
 
@@ -120,7 +120,7 @@
 				</ul>
 
 				<div class="msg_sucesso hide">
-					<p> Sucesso na aÃ§Ã£o.</p>
+					<p> Sucesso na ação.</p>
 					<input type="reset" class="btNovo" onclick="navegacao.showHide('.msg_sucesso', '.listForm');" value="Novo">
 				</div>
 
@@ -136,7 +136,7 @@
 					</li>
 
 					<li>
-						<label>EndereÃ§o:</label>
+						<label>Endereço:</label>
 						<span>Rua alvÃ¡ro ferreira, 20</span>
 					</li>
 
@@ -161,7 +161,7 @@
 					</li>
 
 					<li>
-						<label>Nome MÃ£e:</label>
+						<label>Nome Mãe:</label>
 						<span>Ana Pereira da silva</span>
 					</li>
 
@@ -171,8 +171,8 @@
 					</li>
 
 					<li>
-						<label>SÃ©rie:</label>
-						<span>4Âª</span>
+						<label>Série:</label>
+						<span>4ª</span>
 					</li>
 
 					<li>
@@ -181,7 +181,7 @@
 					</li>
 
 					<li>
-						<label><a href="#ocorrencias"  rel="ocorrencias"  title="OcorrÃªcias"  class="icone" >OcorrÃªncias</a></label>
+						<label><a href="#ocorrencias"  rel="ocorrencias"  title="Ocorrêcias"  class="icone" >Ocorrências</a></label>
 					</li>
 					<li>
 						<label><a href="" onclick="navegacao.showHide('', '.notas');return false;" >Notas</a></label>
