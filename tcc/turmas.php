@@ -14,14 +14,14 @@
 								<thead>
 									<tr>
 										<th width="30%">Turma</th>
-										<th width="30%">Período</th>
+										<th width="30%">PerÃ­odo</th>
 										<th width="30%">Quantidade de Alunos</th>
-										<th width="10%">Ações</th>
+										<th width="10%">AÃ§Ãµes</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<td>4ª Série C</td>
+										<td>4Âª SÃ©rie C</td>
 										<td>Matutino</td>
 										<td>45</td>
 										<td>
@@ -30,7 +30,7 @@
 
 									</tr>
 									<tr>
-										<td>8ª Série A</td>
+										<td>8Âª SÃ©rie A</td>
 										<td>Vespertino</td>
 										<td>41</td>
 										<td>
@@ -39,7 +39,7 @@
 
 									</tr>
 									<tr>
-										<td>1ª Série D - Ensino Médio</td>
+										<td>1Âª SÃ©rie D - Ensino MÃ©dio</td>
 										<td>Noturno</td>
 										<td>35</td>
 										<td>
@@ -63,8 +63,8 @@
 								</li>
 
 								<li>
-									<label>Endereço:</label>
-									<input type="text" name="endereço" class="input">
+									<label>EndereÃ§o:</label>
+									<input type="text" name="endereÃ§o" class="input">
 								</li>
 
 								<li>
@@ -88,17 +88,17 @@
 								</li>
 
 								<li>
-									<label>Formação:</label>
-									<input type="text" name="Formação:" class="input">
+									<label>FormaÃ§Ã£o:</label>
+									<input type="text" name="FormaÃ§Ã£o:" class="input">
 								</li>
 
 								<li>
 									<label>Disciplinas:</label>
-									<input type="checkbox" name="portugues"><span>Português</span>
-									<input type="checkbox" name="matematica"><span>Matemática</span>
-									<input type="checkbox" name="ciencias"><span>Ciências</span>
+									<input type="checkbox" name="portugues"><span>PortuguÃªs</span>
+									<input type="checkbox" name="matematica"><span>MatemÃ¡tica</span>
+									<input type="checkbox" name="ciencias"><span>CiÃªncias</span>
 									<input type="checkbox" name="geografia"><span>Geografia</span>
-									<input type="checkbox" name="historia"><span>História</span>
+									<input type="checkbox" name="historia"><span>HistÃ³ria</span>
 								</li>
 
 								<li>
@@ -116,7 +116,7 @@
 							</ul>
 
 							<div class="msg_sucesso hide">
-								<p> Sucesso na ação.</p>
+								<p> Sucesso na aÃ§Ã£o.</p>
 								<input type="reset" class="btNovo" onclick="navegacao.showHide('.msg_sucesso', '.listForm');" value="Novo">
 							</div>
 
@@ -128,7 +128,7 @@
 							<ul class="listForm">
 								<li>
 									<label>Turma:</label>
-									<span>5� S�rie C - Ensino fundamental</span>
+									<span>5ª Série C - Ensino fundamental</span>
 								</li>
 
 								<li>
@@ -144,10 +144,10 @@
 								<li>
 									<label>Professores:</label>
 									<span class="bloco">
-										Alexsandro Pereira - Matem�tica<br>
-										J�ao Paulo - Portugu�s<br>
+										Alexsandro Pereira - Matemática<br>
+										João Paulo - Português<br>
 										Marcia Almeida - Geografia<br>
-										Rodrigo Alberto - Hist�ria
+										Rodrigo Alberto - História
 									</span>
 								</li>
 
@@ -184,15 +184,15 @@
 								<thead>
 									<tr>
 										<th width="50%">Nome</th>
-										<th width="10%">Série</th>
+										<th width="10%">SÃ©rie</th>
 										<th width="20%">Ra</th>
-										<th width="20%">Ações</th>
+										<th width="20%">AÃ§Ãµes</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
 										<td>Alexsandro Pereira da silva souza</td>
-										<td>4ª</td>
+										<td>4Âª</td>
 										<td>080023037</td>
 										<td>
 											<a href="#" onclick="navegacao.showHide('.listagem','.boxExibir'); return false;">exibir</a>
@@ -201,7 +201,7 @@
 									</tr>
 									<tr>
 										<td>Alex Pereira da silva </td>
-										<td>4ª</td>
+										<td>4Âª</td>
 										<td>080023037</td>
 										<td>
 											<a href="" onclick="navegacao.showHide('.listagem','.boxExibir'); return false;">exibir</a>
@@ -210,7 +210,7 @@
 									</tr>
 									<tr>
 										<td>Alexsandro Pereira</td>
-										<td>2ª</td>
+										<td>2Âª</td>
 										<td>080023037</td>
 										<td>
 											<a href="" onclick="navegacao.showHide('.listagem','.boxExibir'); return false;">exibir</a>
@@ -266,7 +266,7 @@
 							<table>
 								<thead>
 									<tr>
-										<th>M�s</th>
+										<th>Mês</th>
 										<th>Geografia</th>
 
 									</tr>
@@ -281,7 +281,7 @@
 										<td><input type="text" name="nota1" class="input_2" value="5"></td>
 									</tr>
 									<tr>
-										<td>Mar�o</td>
+										<td>Março</td>
 										<td><input type="text" name="nota1" class="input_2" value="5"></td>
 									</tr>
 									<tr>

@@ -5,7 +5,7 @@ and open the template in the editor.
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
         <title>Alexsandro Pereira</title>
         <link rel="stylesheet" type="text/css" href="css.css" />
 
@@ -40,11 +40,11 @@ and open the template in the editor.
 			</div>
             
             <div class="boxShortcuts">
-                <a href="#sobremim" rel="sobremim" title="GÃªrenciar alunos" class="icone">
+                <a href="#sobremim" rel="sobremim" title="Gêrenciar alunos" class="icone">
                     <img src="img/ico_sobremim.png">
                     <div>Alunos</div>
                 </a>
-                <a href="#tecnicas" rel="tecnicas" title="GÃªrenciar professores" class="icone">
+                <a href="#tecnicas" rel="tecnicas" title="Gêrenciar professores" class="icone">
                     <img src="img/ico_portfolio.png">
                     <div>Professores</div>
                 </a>
@@ -63,39 +63,39 @@ and open the template in the editor.
 
 			<div id="declaracao" class="window">
 				<div class="windowHeader">
-					<div class="windowTitle">Declaração</div>
+					<div class="windowTitle">Declara&#65533;&#65533;o</div>
 					<div class="windowButtons">
 						<a href="" class="min"></a><a href="" class="close"></a></div>
 				</div>
 				<div class="windowContent">
-					<h2>Declaração</h2>
-					<p>Declaramos para os devidos fins que ALEXSANDRO PEREIRA DA SILVA SOUZA, portador(a) do R.G. nº 366859092, é aluno(a) regularmente matriculado(a) nesta Instituição de Ensino Superior no ano letivo de 2011-1, sob R.A. nº 080023037, na 4ª série,
-						período noturno do curso de SISTEMAS DE INFORMAÇÃO, reconhecido pela Portaria Ministerial nº 941 de 27/03/2002,
-						publicado no Diário Oficial da União em 28/03/2002, com regime seriado anual e duração de 4 anos.  </p>
+					<h2>Declara&#65533;&#65533;o</h2>
+					<p>Declaramos para os devidos fins que ALEXSANDRO PEREIRA DA SILVA SOUZA, portador(a) do R.G. n&#65533; 366859092, &#65533; aluno(a) regularmente matriculado(a) nesta Institui&#65533;&#65533;o de Ensino Superior no ano letivo de 2011-1, sob R.A. n&#65533; 080023037, na 4&#65533; s&#65533;rie,
+						per&#65533;odo noturno do curso de SISTEMAS DE INFORMA&#65533;&#65533;O, reconhecido pela Portaria Ministerial n&#65533; 941 de 27/03/2002,
+						publicado no Di&#65533;rio Oficial da Uni&#65533;o em 28/03/2002, com regime seriado anual e dura&#65533;&#65533;o de 4 anos.  </p>
 
-					<p>Por ser expressão da verdade, firmamos a presente. </p>
+					<p>Por ser express&#65533;o da verdade, firmamos a presente. </p>
 
-					<p>São Paulo, 09 de setembro de 2011.  </p>
+					<p>S&#65533;o Paulo, 09 de setembro de 2011.  </p>
 
 				</div>
-			</div><!-- FIM Declaração-->
+			</div><!-- FIM Declara??o-->
 
 
 			<div id="historico" class="window">
 				<div class="windowHeader">
-					<div class="windowTitle">Histórico</div>
+					<div class="windowTitle">Hist&#65533;rico</div>
 					<div class="windowButtons">
 						<a href="" class="min"></a><a href="" class="close"></a></div>
 				</div>
 				<div class="windowContent">
-					<h2>Histórico</h2>
-					<p>Declaramos para os devidos fins que ALEXSANDRO PEREIRA DA SILVA SOUZA, portador(a) do R.G. nº 366859092, é aluno(a) regularmente matriculado(a) nesta Instituição de Ensino Superior no ano letivo de 2011-1, sob R.A. nº 080023037, na 4ª série,
-						período noturno do curso de SISTEMAS DE INFORMAÇÃO, reconhecido pela Portaria Ministerial nº 941 de 27/03/2002,
-						publicado no Diário Oficial da União em 28/03/2002, com regime seriado anual e duração de 4 anos.  </p>
+					<h2>Hist&#65533;rico</h2>
+					<p>Declaramos para os devidos fins que ALEXSANDRO PEREIRA DA SILVA SOUZA, portador(a) do R.G. n&#65533; 366859092, &#65533; aluno(a) regularmente matriculado(a) nesta Institui&#65533;&#65533;o de Ensino Superior no ano letivo de 2011-1, sob R.A. n&#65533; 080023037, na 4&#65533; s&#65533;rie,
+						per&#65533;odo noturno do curso de SISTEMAS DE INFORMA&#65533;&#65533;O, reconhecido pela Portaria Ministerial n&#65533; 941 de 27/03/2002,
+						publicado no Di&#65533;rio Oficial da Uni&#65533;o em 28/03/2002, com regime seriado anual e dura&#65533;&#65533;o de 4 anos.  </p>
 
-					<p>Por ser expressão da verdade, firmamos a presente. </p>
+					<p>Por ser express&#65533;o da verdade, firmamos a presente. </p>
 
-					<p>São Paulo, 09 de setembro de 2011.  </p>
+					<p>S&#65533;o Paulo, 09 de setembro de 2011.  </p>
 
 				</div>
 			</div><!-- FIM Historico-->
@@ -104,8 +104,8 @@ and open the template in the editor.
 
 			<div id="ocorrencias" class="window">
                 <div class="windowHeader">
-                    <div class="windowTitle">OcorrÃªncias do Alexsandro Pereira</div>
-                    <div class="windowButtons"><a href="" class="btVoltar" onclick="navegacao.voltar();return false;" ></a><a href="" class="min"></a><a href="" class="close"></a></div>
+                    <div class="windowTitle">Ocorr&ecirc;ncias do Alexsandro Pereira</div>
+                    <div class="windowButtons"><a href="" class="btVoltar" onClick="navegacao.voltar();return false;" ></a><a href="" class="min"></a><a href="" class="close"></a></div>
                 </div>
                 <div class="windowContent">
 					<div class="listOcorrencias">
@@ -120,7 +120,7 @@ and open the template in the editor.
 						</div>
 
 						<div class="itemOcorrencia">
-							<a href="" onclick="navegacao.showHide('.listOcorrencias', '.boxCadastro');return false;" class="btNovo">Novo</a>
+							<a href="" onClick="navegacao.showHide('.listOcorrencias', '.boxCadastro');return false;" class="btNovo">Novo</a>
 						</div>
 					</div><!--FIM::listOcorrencias-->
 
@@ -133,21 +133,21 @@ and open the template in the editor.
 								</li>
 
 								<li>
-									<label>OcorrÃªncia:</label>
+									<label>Ocorr&ecirc;ncia:</label>
 									<textarea  name="ocorrencia" class="input"></textarea>
 								</li>
 
 								<li>
 									<center>
-										<a href="#" onclick="navegacao.showHide(' .listForm', ' .msg_sucesso');return false;" >Salvar</a>
+										<a href="#" onClick="navegacao.showHide(' .listForm', ' .msg_sucesso');return false;" >Salvar</a>
 									</center>
 
 								</li>
 							</ul>
 
 							<div class="msg_sucesso hide">
-								<p> Sucesso na aÃ§Ã£o.</p>
-								<input type="reset" class="btNovo" onclick="navegacao.showHide('.msg_sucesso', '.listForm');" value="Novo">
+								<p> Sucesso na a&ccedil;&atilde;o.</p>
+								<input type="reset" class="btNovo" onClick="navegacao.showHide('.msg_sucesso', '.listForm');" value="Novo">
 							</div>
 
 						</form>
@@ -183,8 +183,8 @@ and open the template in the editor.
                 <ul class="listPaginas">
                     <li><a href="#sobremim" rel="sobremim" title="Sobre mim" class="icone">Sobre Mim</a></li>
                     <li><a href="#portfolio" class="icone" rel="portifolio" title="Meus trabalhos">Portfolio</a></li>
-                    <li><a href="#curriculo" rel="curriculo" title="Conhecimentos e experiÃªncias " class="icone">CurrÃ­culo</a></li>
-					<li><a href="#tecnicas" rel="tecnicas" title="TÃ©cnicas e ferramentas de desenvolvimento" class="icone">TÃ©cnicas e Ferramentas</a></li>
+                    <li><a href="#curriculo" rel="curriculo" title="Conhecimentos e experiências " class="icone">Curr&iacute;culo</a></li>
+					<li><a href="#tecnicas" rel="tecnicas" title="Técnicas e ferramentas de desenvolvimento" class="icone">T&eacute;cnicas e Ferramentas</a></li>
                     <li><a href="blog/" rel="blog" title="Compartilhando conhecimento" class="">Blog</a></li>
                 </ul>
 
