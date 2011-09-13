@@ -63,19 +63,17 @@ and open the template in the editor.
 
 			<div id="declaracao" class="window">
 				<div class="windowHeader">
-					<div class="windowTitle">Declara&#65533;&#65533;o</div>
+					<div class="windowTitle">Declaração</div>
 					<div class="windowButtons">
 						<a href="" class="min"></a><a href="" class="close"></a></div>
 				</div>
 				<div class="windowContent">
-					<h2>Declara&#65533;&#65533;o</h2>
-					<p>Declaramos para os devidos fins que ALEXSANDRO PEREIRA DA SILVA SOUZA, portador(a) do R.G. n&#65533; 366859092, &#65533; aluno(a) regularmente matriculado(a) nesta Institui&#65533;&#65533;o de Ensino Superior no ano letivo de 2011-1, sob R.A. n&#65533; 080023037, na 4&#65533; s&#65533;rie,
-						per&#65533;odo noturno do curso de SISTEMAS DE INFORMA&#65533;&#65533;O, reconhecido pela Portaria Ministerial n&#65533; 941 de 27/03/2002,
-						publicado no Di&#65533;rio Oficial da Uni&#65533;o em 28/03/2002, com regime seriado anual e dura&#65533;&#65533;o de 4 anos.  </p>
+					<h2>Declaração</h2>
+					<p>Declaramos para os devidos fins que ALEXSANDRO PEREIRA DA SILVA SOUZA, portador(a) do R.G. nº 366859092, é aluno(a) regularmente matriculado(a)  </p>
 
-					<p>Por ser express&#65533;o da verdade, firmamos a presente. </p>
+					<p>Por ser expressção da verdade, firmamos a presente. </p>
 
-					<p>S&#65533;o Paulo, 09 de setembro de 2011.  </p>
+					<p>Sço Paulo, 09 de setembro de 2011.  </p>
 
 				</div>
 			</div><!-- FIM Declara??o-->
@@ -83,19 +81,17 @@ and open the template in the editor.
 
 			<div id="historico" class="window">
 				<div class="windowHeader">
-					<div class="windowTitle">Hist&#65533;rico</div>
+					<div class="windowTitle">Histçrico</div>
 					<div class="windowButtons">
 						<a href="" class="min"></a><a href="" class="close"></a></div>
 				</div>
 				<div class="windowContent">
-					<h2>Hist&#65533;rico</h2>
-					<p>Declaramos para os devidos fins que ALEXSANDRO PEREIRA DA SILVA SOUZA, portador(a) do R.G. n&#65533; 366859092, &#65533; aluno(a) regularmente matriculado(a) nesta Institui&#65533;&#65533;o de Ensino Superior no ano letivo de 2011-1, sob R.A. n&#65533; 080023037, na 4&#65533; s&#65533;rie,
-						per&#65533;odo noturno do curso de SISTEMAS DE INFORMA&#65533;&#65533;O, reconhecido pela Portaria Ministerial n&#65533; 941 de 27/03/2002,
-						publicado no Di&#65533;rio Oficial da Uni&#65533;o em 28/03/2002, com regime seriado anual e dura&#65533;&#65533;o de 4 anos.  </p>
+					<h2>Histórico</h2>
+					<p>Declaramos para os devidos fins que ALEXSANDRO PEREIRA DA SILVA SOUZA, portador(a) do R.G. nº 366859092, é aluno(a) regularmente matriculado(a) </p>
 
-					<p>Por ser express&#65533;o da verdade, firmamos a presente. </p>
+					<p>Por ser expresso da verdade, firmamos a presente. </p>
 
-					<p>S&#65533;o Paulo, 09 de setembro de 2011.  </p>
+					<p>Sço Paulo, 09 de setembro de 2011.  </p>
 
 				</div>
 			</div><!-- FIM Historico-->
