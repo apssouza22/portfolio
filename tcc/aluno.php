@@ -1,8 +1,8 @@
 <div id="sobremim" class="window">
 	<div class="windowHeader">
-		<div class="windowTitle">Gêrenciar alunos</div>
+		<div class="windowTitle">Gerenciar alunos</div>
 		<div class="windowButtons">
-			<a href="" class="btVoltar" onclick="navegacao.voltar();return false;" ></a><a href="" class="min"></a><a href="" class="close"></a></div>
+			<a href="" class="btVoltar" onclick="navegacao.voltar(this);return false;" ></a><a href="" class="min"></a><a href="" class="close"></a></div>
 	</div>
 	<div class="windowContent">
 
@@ -11,8 +11,8 @@
 			<div class="boxFiltro">
 
 				<input name="pesquisa" type="text">
-				<input type="button" name="enviar" value="Pesquisar">
-				<a href="#" class="btNovo" onclick="navegacao.showHide('.listagem','.boxCadastro'); return false;"  title="Novo Aluno">Novo</a>
+				<input type="button"  class="botao" name="enviar" value="Pesquisar">
+				<a href="#" class="btNovo" onclick="navegacao.showHide('.listagem','.boxCadastro',this); return false;"  title="Novo Aluno">Novo</a>
 			</div>
 
 			<div class="boxLista">
@@ -32,7 +32,7 @@
 							<td>4ª</td>
 							<td>080023037</td>
 							<td>
-								<a href="#" onclick="navegacao.showHide('.listagem','.boxExibir'); return false;">exibir</a>
+								<a href="#" onclick="navegacao.showHide('.listagem','.boxExibir',this); return false;">exibir</a>
 							</td>
 
 						</tr>
@@ -41,7 +41,7 @@
 							<td>4ª</td>
 							<td>080023037</td>
 							<td>
-								<a href="" onclick="navegacao.showHide('.listagem','.boxExibir'); return false;">exibir</a>
+								<a href="" onclick="navegacao.showHide('.listagem','.boxExibir',this); return false;">exibir</a>
 							</td>
 
 						</tr>
@@ -50,7 +50,7 @@
 							<td>2ª</td>
 							<td>080023037</td>
 							<td>
-								<a href="" onclick="navegacao.showHide('.listagem','.boxExibir'); return false;">exibir</a>
+								<a href="" onclick="navegacao.showHide('.listagem','.boxExibir',this); return false;">exibir</a>
 							</td>
 
 						</tr>
@@ -113,7 +113,7 @@
 
 					<li>
 						<center>
-							<a href="#" onclick="navegacao.showHide(' .listForm', ' .msg_sucesso');return false;" >Salvar</a>
+							<a href="#" onclick="navegacao.showHide(' .listForm', ' .msg_sucesso',this);return false;" class="botao" >Salvar</a>
 						</center>
 
 					</li>
@@ -121,7 +121,7 @@
 
 				<div class="msg_sucesso hide">
 					<p> Sucesso na ação.</p>
-					<input type="reset" class="btNovo" onclick="navegacao.showHide('.msg_sucesso', '.listForm');" value="Novo">
+					<input type="reset" class="btNovo" onclick="navegacao.showHide('.msg_sucesso', '.listForm',this);" value="Novo">
 				</div>
 
 			</form>
@@ -137,7 +137,7 @@
 
 					<li>
 						<label>Endereço:</label>
-						<span>Rua alvÃ¡ro ferreira, 20</span>
+						<span>Rua alváro ferreira, 20</span>
 					</li>
 
 					<li>
@@ -184,7 +184,7 @@
 						<label><a href="#ocorrencias"  rel="ocorrencias"  title="Ocorrêcias"  class="icone" >Ocorrências</a></label>
 					</li>
 					<li>
-						<label><a href="" onclick="navegacao.showHide('', '.notas');return false;" >Notas</a></label>
+						<label><a href="" onclick="navegacao.showHide('', '.notas',this);return false;" >Notas</a></label>
 						<div class="notas hidden">
 							<table>
 								<thead>
@@ -226,30 +226,30 @@
 					</li>
 
 					<li>
-						<label><a href="" onclick="navegacao.showHide('', '.faltas');return false;" >Faltas</a></label>
+						<label><a href="" onclick="navegacao.showHide('', '.faltas',this);return false;" >Faltas</a></label>
 						<div class="faltas hidden">
 							<table>
 								<thead>
 									<tr>
 										<th>Disciplina</th>
-										<th>Janeiro</th>
-										<th>Fevereiro</th>
-										<th>Março</th>
-										<th>Abril</th>
-										<th>Maio</th>
-										<th>Junho</th>
-										<th>Julho</th>
-										<th>Agosto</th>
-										<th>Setembro</th>
-										<th>Outubro</th>
-										<th>Novembro</th>
-										<th>Dezembro</th>
+										<th>Jan</th>
+										<th>Fev</th>
+										<th>Mar</th>
+										<th>Abr</th>
+										<th>Mai</th>
+										<th>Jun</th>
+										<th>Jul</th>
+										<th>Ago</th>
+										<th>Set</th>
+										<th>Out</th>
+										<th>Nov</th>
+										<th>Dez</th>
 
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<td>Português</td>
+										<td>Port</td>
 										<td>1</td>
 										<td>33</td>
 										<td>22</td>
@@ -264,7 +264,7 @@
 
 									</tr>
 									<tr>
-										<td>Matemática<td>
+										<td>Mat<td>
 										<td>1</td>
 										<td>33</td>
 										<td>22</td>
@@ -279,7 +279,7 @@
 
 									</tr>
 									<tr>
-										<td>História</td>
+										<td>Hist</td>
 										<td>1</td>
 										<td>33</td>
 										<td>22</td>
@@ -294,7 +294,7 @@
 
 									</tr>
 									<tr>
-										<td>Geografia</td>
+										<td>Geo</td>
 										<td>1</td>
 										<td>33</td>
 										<td>22</td>
@@ -315,7 +315,7 @@
 						</div>
 					</li>
 					<li>
-						<label><a href="#historico"  rel="historico"  title="histórico"  class="icone" >Histórico</a></label>
+						<label><a href="#historico"  rel="historico"  title="Histórico"  class="icone" >Histórico</a></label>
 					</li>
 
 					<li>

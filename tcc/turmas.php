@@ -1,7 +1,7 @@
 <div id="curriculo" class="window">
                 <div class="windowHeader">
                     <div class="windowTitle">Gerenciar turmas</div>
-                    <div class="windowButtons"><a href="" class="btVoltar" onclick="navegacao.voltar();return false;" ></a><a href="" class="min"></a><a href="" class="close"></a></div>
+                    <div class="windowButtons"><a href="" class="btVoltar" onclick="navegacao.voltar(this);return false;" ></a><a href="" class="min"></a><a href="" class="close"></a></div>
                 </div>
                 <div class="windowContent">
 
@@ -25,7 +25,7 @@
 										<td>Matutino</td>
 										<td>45</td>
 										<td>
-											<a href="#" onclick="navegacao.showHide('.listagem','.boxExibir'); return false;">exibir</a>
+											<a href="#" onclick="navegacao.showHide('.listagem','.boxExibir',this); return false;">exibir</a>
 										</td>
 
 									</tr>
@@ -34,7 +34,7 @@
 										<td>Vespertino</td>
 										<td>41</td>
 										<td>
-											<a href="#" onclick="navegacao.showHide('.listagem','.boxExibir'); return false;">exibir</a>
+											<a href="#" onclick="navegacao.showHide('.listagem','.boxExibir',this); return false;">exibir</a>
 										</td>
 
 									</tr>
@@ -43,7 +43,7 @@
 										<td>Noturno</td>
 										<td>35</td>
 										<td>
-											<a href="#" onclick="navegacao.showHide('.listagem','.boxExibir'); return false;">exibir</a>
+											<a href="#" onclick="navegacao.showHide('.listagem','.boxExibir',this); return false;">exibir</a>
 										</td>
 
 									</tr>
@@ -95,7 +95,7 @@
 								<li>
 									<label>Disciplinas:</label>
 									<input type="checkbox" name="portugues"><span>Português</span>
-									<input type="checkbox" name="matematica"><span>MatemÃ¡tica</span>
+									<input type="checkbox" name="matematica"><span>Matemática</span>
 									<input type="checkbox" name="ciencias"><span>Ciências</span>
 									<input type="checkbox" name="geografia"><span>Geografia</span>
 									<input type="checkbox" name="historia"><span>HistÃ³ria</span>
@@ -109,7 +109,7 @@
 
 								<li>
 									<center>
-										<a href="#" onclick="navegacao.showHide(' .listForm', ' .msg_sucesso');return false;" >Salvar</a>
+										<a href="#" onclick="navegacao.showHide(' .listForm', ' .msg_sucesso',this);return false;" class="botao" >Salvar</a>
 									</center>
 
 								</li>
@@ -117,7 +117,7 @@
 
 							<div class="msg_sucesso hide">
 								<p> Sucesso na ação.</p>
-								<input type="reset" class="btNovo" onclick="navegacao.showHide('.msg_sucesso', '.listForm');" value="Novo">
+								<input type="reset" class="btNovo" onclick="navegacao.showHide('.msg_sucesso', '.listForm',this);" value="Novo">
 							</div>
 
 						</form>
@@ -171,7 +171,7 @@
 <div id="alunos" class="window">
                 <div class="windowHeader">
                     <div class="windowTitle">Gerenciar turmas</div>
-                    <div class="windowButtons"><a href="" class="btVoltar" onclick="navegacao.voltar();return false;" ></a><a href="" class="min"></a><a href="" class="close"></a></div>
+                    <div class="windowButtons"><a href="" class="btVoltar" onclick="navegacao.voltar(this);return false;" ></a><a href="" class="min"></a><a href="" class="close"></a></div>
                 </div>
                 <div class="windowContent">
 
@@ -195,7 +195,7 @@
 										<td>4ª</td>
 										<td>080023037</td>
 										<td>
-											<a href="#" onclick="navegacao.showHide('.listagem','.boxExibir'); return false;">exibir</a>
+											<a href="#" onclick="navegacao.showHide('.listagem','.boxExibir',this); return false;">exibir</a>
 										</td>
 
 									</tr>
@@ -204,7 +204,7 @@
 										<td>4ª</td>
 										<td>080023037</td>
 										<td>
-											<a href="" onclick="navegacao.showHide('.listagem','.boxExibir'); return false;">exibir</a>
+											<a href="" onclick="navegacao.showHide('.listagem','.boxExibir',this); return false;">exibir</a>
 										</td>
 
 									</tr>
@@ -213,7 +213,7 @@
 										<td>2ª</td>
 										<td>080023037</td>
 										<td>
-											<a href="" onclick="navegacao.showHide('.listagem','.boxExibir'); return false;">exibir</a>
+											<a href="" onclick="navegacao.showHide('.listagem','.boxExibir',this); return false;">exibir</a>
 										</td>
 
 									</tr>
@@ -232,7 +232,7 @@
 					</li>
 
 					<li>
-						<label><a href="" onclick="navegacao.showHide('', '.notas');return false;" >Notas</a></label>
+						<label><a href="" onclick="navegacao.showHide('', '.notas',this);return false;" >Notas</a></label>
 						<div class="notas hidden">
 							<table>
 								<thead>
@@ -261,7 +261,7 @@
 					</li>
 
 					<li>
-						<label><a href="" onclick="navegacao.showHide('', '.faltas');return false;" >Faltas</a></label>
+						<label><a href="" onclick="navegacao.showHide('', '.faltas',this);return false;" >Faltas</a></label>
 						<div class="faltas hidden">
 							<table>
 								<thead>

@@ -7,6 +7,7 @@ and open the template in the editor.
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
         <title>Alexsandro Pereira</title>
+        <link rel="stylesheet" type="text/css" href="reset.css" />
         <link rel="stylesheet" type="text/css" href="css.css" />
 
     </head>
@@ -19,33 +20,15 @@ and open the template in the editor.
 	    </div>
 
 
-			<div class="contato">
-				<ul>
-					<li>
-						Telefone : 7618 - 4253 
-					</li>
-					<li>
-						Email : alexsandro.p.souza@gmail.com
-					</li>
-					<li>
-						MSN : alexsandro.p.souza@hotmail.com
-					</li>
-					<li>
-						Gtalk : apssouza22@gmail.com
-					</li>
-					<li>
-						Skype : apssouza22
-					</li>
-				</ul>
-			</div>
+		
             
             <div class="boxShortcuts">
-                <a href="#sobremim" rel="sobremim" title="Gêrenciar alunos" class="icone">
-                    <img src="img/ico_sobremim.png">
+                <a href="#sobremim" rel="sobremim" title="Gerenciar alunos" class="icone">
+                    <img src="img/1317662347_graduated.png">
                     <div>Alunos</div>
                 </a>
-                <a href="#tecnicas" rel="tecnicas" title="Gêrenciar professores" class="icone">
-                    <img src="img/ico_portfolio.png">
+                <a href="#tecnicas" rel="tecnicas" title="Gerenciar professores" class="icone">
+                    <img src="img/1317662324_teacher.png">
                     <div>Professores</div>
                 </a>
             
@@ -73,7 +56,7 @@ and open the template in the editor.
 
 					<p>Por ser expressção da verdade, firmamos a presente. </p>
 
-					<p>Sço Paulo, 09 de setembro de 2011.  </p>
+					<p>São Paulo, 09 de setembro de 2011.  </p>
 
 				</div>
 			</div><!-- FIM Declara??o-->
@@ -81,7 +64,7 @@ and open the template in the editor.
 
 			<div id="historico" class="window">
 				<div class="windowHeader">
-					<div class="windowTitle">Histçrico</div>
+					<div class="windowTitle">Histórico</div>
 					<div class="windowButtons">
 						<a href="" class="min"></a><a href="" class="close"></a></div>
 				</div>
@@ -91,7 +74,9 @@ and open the template in the editor.
 
 					<p>Por ser expresso da verdade, firmamos a presente. </p>
 
-					<p>Sço Paulo, 09 de setembro de 2011.  </p>
+					<p>São Paulo, 09 de setembro de 2011.  </p>
+
+                                        <a href="#" class="botao">Imprimir</a>
 
 				</div>
 			</div><!-- FIM Historico-->
@@ -101,10 +86,10 @@ and open the template in the editor.
 			<div id="ocorrencias" class="window">
                 <div class="windowHeader">
                     <div class="windowTitle">Ocorr&ecirc;ncias do Alexsandro Pereira</div>
-                    <div class="windowButtons"><a href="" class="btVoltar" onClick="navegacao.voltar();return false;" ></a><a href="" class="min"></a><a href="" class="close"></a></div>
+                    <div class="windowButtons"><a href="" class="btVoltar" onClick="navegacao.voltar(this);return false;" ></a><a href="" class="min"></a><a href="" class="close"></a></div>
                 </div>
                 <div class="windowContent">
-					<div class="listOcorrencias">
+					<div class="listOcorrencias index">
 						<div class="itemOcorrencia">
 							<h3>Briga com o colega</h3>
 							<p>andou brigando com os coleguinhas na hora do intervaloandou brigando com os coleguinhas na hora do intervaloandou brigando com os coleguinhas na hora do intervaloandou brigando com os coleguinhas na hora do intervaloandou brigando com os coleguinhas na hora do intervaloandou brigando com os coleguinhas na hora do intervalo</p>
@@ -116,7 +101,7 @@ and open the template in the editor.
 						</div>
 
 						<div class="itemOcorrencia">
-							<a href="" onClick="navegacao.showHide('.listOcorrencias', '.boxCadastro');return false;" class="btNovo">Novo</a>
+							<a href="" onClick="navegacao.showHide('.listOcorrencias', '.boxCadastro',this);return false;" class="btNovo">Novo</a>
 						</div>
 					</div><!--FIM::listOcorrencias-->
 
@@ -135,7 +120,7 @@ and open the template in the editor.
 
 								<li>
 									<center>
-										<a href="#" onClick="navegacao.showHide(' .listForm', ' .msg_sucesso');return false;" >Salvar</a>
+										<a href="#" onClick="navegacao.showHide(' .listForm', ' .msg_sucesso',this);return false;" class="botao" >Salvar</a>
 									</center>
 
 								</li>
@@ -143,7 +128,7 @@ and open the template in the editor.
 
 							<div class="msg_sucesso hide">
 								<p> Sucesso na a&ccedil;&atilde;o.</p>
-								<input type="reset" class="btNovo" onClick="navegacao.showHide('.msg_sucesso', '.listForm');" value="Novo">
+								<input type="reset" class="btNovo" onClick="navegacao.showHide('.msg_sucesso', '.listForm',this);" value="Novo">
 							</div>
 
 						</form>
@@ -177,11 +162,9 @@ and open the template in the editor.
         <div class="startWindow hidden">
             <div class="visitante">Alex</div>
                 <ul class="listPaginas">
-                    <li><a href="#sobremim" rel="sobremim" title="Sobre mim" class="icone">Sobre Mim</a></li>
-                    <li><a href="#portfolio" class="icone" rel="portifolio" title="Meus trabalhos">Portfolio</a></li>
-                    <li><a href="#curriculo" rel="curriculo" title="Conhecimentos e experiências " class="icone">Curr&iacute;culo</a></li>
-					<li><a href="#tecnicas" rel="tecnicas" title="Técnicas e ferramentas de desenvolvimento" class="icone">T&eacute;cnicas e Ferramentas</a></li>
-                    <li><a href="blog/" rel="blog" title="Compartilhando conhecimento" class="">Blog</a></li>
+                    <li><a href="#sobremim" rel="sobremim" title="Gerenciar alunos" class="icone">Alunos</a></li>
+                    <li><a href="#tecnicas" class="icone" rel="tecnicas" title="Gerenciar professores">Professores</a></li>
+                    <li><a href="#curriculo" rel="curriculo" title="Gerenciar turmas" class="icone">Turmas</a></li>
                 </ul>
 
                 <ul class="listSocial">

@@ -2,7 +2,7 @@
 	<div class="windowHeader">
 		<div class="windowTitle">G&ecirc;renciar professores</div>
 		<div class="windowButtons">
-			<a href="" class="btVoltar" onclick="navegacao.voltar();return false;" ></a><a href="" class="min"></a><a href="" class="close"></a></div>
+			<a href="" class="btVoltar" onclick="navegacao.voltar(this);return false;" ></a><a href="" class="min"></a><a href="" class="close"></a></div>
 	</div>
 	<div class="windowContent">
 
@@ -11,8 +11,8 @@
 			<div class="boxFiltro">
 
 				<input name="pesquisa" type="text">
-				<input type="button" name="enviar" value="Pesquisar">
-				<a href="#" class="btNovo" onclick="navegacao.showHide('.listagem','.boxCadastro'); return false;"  title="Novo Aluno">Novo</a>
+				<input type="button"  class="botao" name="enviar" value="Pesquisar">
+				<a href="#" class="btNovo" onclick="navegacao.showHide('.listagem','.boxCadastro',this); return false;"  title="Novo Aluno">Novo</a>
 			</div>
 
 			<div class="boxLista">
@@ -32,7 +32,7 @@
 							<td>080023037</td>
 							<td>1234-5678</td>
 							<td>
-								<a href="#" onclick="navegacao.showHide('.listagem','.boxExibir'); return false;">exibir</a>
+								<a href="#" onclick="navegacao.showHide('.listagem','.boxExibir',this); return false;">exibir</a>
 							</td>
 
 						</tr>
@@ -41,7 +41,7 @@
 							<td>080023037</td>
 							<td>1234-5678</td>
 							<td>
-								<a href="#" onclick="navegacao.showHide('.listagem','.boxExibir'); return false;">exibir</a>
+								<a href="#" onclick="navegacao.showHide('.listagem','.boxExibir',this); return false;">exibir</a>
 							</td>
 
 						</tr>
@@ -50,7 +50,7 @@
 							<td>080023037</td>
 							<td>1234-5678</td>
 							<td>
-								<a href="#" onclick="navegacao.showHide('.listagem','.boxExibir'); return false;">exibir</a>
+								<a href="#" onclick="navegacao.showHide('.listagem','.boxExibir',this); return false;">exibir</a>
 							</td>
 
 						</tr>
@@ -116,7 +116,7 @@
 
 					<li>
 						<center>
-							<a href="#" onclick="navegacao.showHide(' .listForm', ' .msg_sucesso');return false;" >Salvar</a>
+							<a href="#" onclick="navegacao.showHide(' .listForm', ' .msg_sucesso',this);return false;" class="botao" >Salvar</a>
 						</center>
 
 					</li>
@@ -124,7 +124,7 @@
 
 				<div class="msg_sucesso hide">
 					<p> Sucesso na a&ccedil;&atilde;o.</p>
-					<input type="reset" class="btNovo" onclick="navegacao.showHide('.msg_sucesso', '.listForm');" value="Novo">
+					<input type="reset" class="btNovo" onclick="navegacao.showHide('.msg_sucesso', '.listForm',this);" value="Novo">
 				</div>
 
 			</form>

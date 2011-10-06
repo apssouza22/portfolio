@@ -8,7 +8,7 @@ core.window = function (win,title){
     classe = this;
     var settings={};
 
-    settings.height = 500;
+    settings.height = 511;
     //POSITION OF ITEM TASK BAR
     var leftItemBar;
     var leftItemTop;
@@ -117,6 +117,7 @@ core.window = function (win,title){
 
         //DEFINE THE ZINDEX OF WINDOW
         $('.window').click(function(e){
+            console.log(e);
             $('.window').css('zIndex', 10);
             $(this).css('zIndex', 20)
         })
@@ -133,17 +134,17 @@ core.Navegacao = function(){
 
 	 var classe = this;
 
-	 this.showHide = function(boxHide,boxShow){
-		 var parent = boxHide !='' ?	$(boxHide).parents('.window')	:		$(boxShow).parents('.window');
+	 this.showHide = function(boxHide,boxShow,pg){
+		 var parent = $(pg).parents('.window');
 		 
 		 $(boxHide,parent).toggle();
 		 $(boxShow,parent).toggle();
 	 }
 
-	 this.voltar = function(){
-		 
-		 $('.hidden').hide();
-		 $('.index').show();
+	 this.voltar = function(pg){
+             var pg = $(pg).parents('.window');
+		 $('.hidden',pg).hide();
+		 $('.index',pg).show();
 	 }
 
 };
