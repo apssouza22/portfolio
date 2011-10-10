@@ -1,6 +1,6 @@
 <div id="tecnicas" class="window">
 	<div class="windowHeader">
-		<div class="windowTitle">G&ecirc;renciar professores</div>
+		<div class="windowTitle">Gerenciar professores</div>
 		<div class="windowButtons">
 			<a href="" class="btVoltar" onclick="navegacao.voltar(this);return false;" ></a><a href="" class="min"></a><a href="" class="close"></a></div>
 	</div>

@@ -67,11 +67,13 @@ core.window = function (win,title){
             top:windowTop,    left:windowLeft,    opacity:1,
             height:settings.height,       width:settings.width
         }
-        //DEFINE THE ZINDEX OF WINDOW
-        $('.window').css('zIndex', 10);
-        $(settings.win).css('zIndex', 20)
+        
 
-        $(settings.win).animate(params, 500, 'swing', function(){        })
+        $(settings.win).animate(params, 500, 'swing', function(){
+			//DEFINE THE ZINDEX OF WINDOW
+			$('.window').css('zIndex', 10);
+			$(settings.win).css('zIndex', 20)
+		})
     }
 
     var minimizaWindow = function(){
@@ -117,7 +119,6 @@ core.window = function (win,title){
 
         //DEFINE THE ZINDEX OF WINDOW
         $('.window').click(function(e){
-            console.log(e);
             $('.window').css('zIndex', 10);
             $(this).css('zIndex', 20)
         })

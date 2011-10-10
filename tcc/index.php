@@ -16,7 +16,7 @@ and open the template in the editor.
         <div id="content">
 
 	    <div style="color: #5085c7;left: 401px; position: absolute;">
-		<h4>Em desenvolvimento...</h4>
+		
 	    </div>
 
 
@@ -36,12 +36,19 @@ and open the template in the editor.
                     <img src="img/ico_curriculum.png">
                     <div>Turmas</div>
                 </a>
+
+                <a href="#material" rel="material" title="Gerenciar Materiais" class="icone">
+                    <img src="img/1318119032_bookcase.png">
+                    <div>Materiais</div>
+                </a>
 				
      
             </div><!-- FIM SHORTCUTS-->
 			
             
             <?php			require_once 'aluno.php'; ?>
+
+            <?php			require_once 'material.php'; ?>
 
 
 			<div id="declaracao" class="window">
@@ -54,7 +61,7 @@ and open the template in the editor.
 					<h2>Declaração</h2>
 					<p>Declaramos para os devidos fins que ALEXSANDRO PEREIRA DA SILVA SOUZA, portador(a) do R.G. nº 366859092, é aluno(a) regularmente matriculado(a)  </p>
 
-					<p>Por ser expressção da verdade, firmamos a presente. </p>
+					<p>Por ser expressão da verdade, firmamos a presente. </p>
 
 					<p>São Paulo, 09 de setembro de 2011.  </p>
 
@@ -165,11 +172,15 @@ and open the template in the editor.
                     <li><a href="#sobremim" rel="sobremim" title="Gerenciar alunos" class="icone">Alunos</a></li>
                     <li><a href="#tecnicas" class="icone" rel="tecnicas" title="Gerenciar professores">Professores</a></li>
                     <li><a href="#curriculo" rel="curriculo" title="Gerenciar turmas" class="icone">Turmas</a></li>
+                    <li><a href="#material" rel="material" title="Gerenciar Materiais" class="icone">Materiais</a></li>
                 </ul>
 
                 <ul class="listSocial">
-                    <li><a href="http://twitter.com/#!/apssouza22" target="_blank">Twitter</a></li>
-                    <li><a href="http://www.facebook.com/apssouza" target="_blank">Facebook</a></li>
+                    <li><a href="http://twitter.com/#!/apssouza22" target="_blank">Alex</a></li>
+                    <li><a href="" target="_blank">Adriana</a></li>
+                    <li><a href="" target="_blank">Etiene</a></li>
+                    <li><a href="" target="_blank">José</a></li>
+                    <li><a href="" target="_blank">Tatiane</a></li>
                 </ul>
         </div>
         <!-- FIM - START WINDOW-->
